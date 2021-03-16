@@ -1,0 +1,91 @@
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent ;
+}
+body{
+    height: 100vh;
+    background: -o-linear-gradient(
+        315deg,
+        #FFCF1B, 
+        #FF8b1B);
+    background: linear-gradient(
+        135deg,
+        #FFCF1B, 
+        #FF8b1B);
+}
+.wrapper{
+    width: 330px;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+    padding: 30px 25px;
+}
+.scores,
+.details,
+#result,
+a{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.weapons{
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.weapons button{
+    background: #ffd51b;
+    height: 75px;
+    width: 75px;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+.scores{
+    margin-bottom: 50px;
+    text-align: right;
+}
+.details{
+    margin-top: 30px;
+    text-align: center;
+}
+#result{
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto 0 auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#user_choice,
+#comp_choice{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: 600;
+}
